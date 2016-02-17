@@ -2335,7 +2335,6 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-10 .carousel {
   margin-bottom: 0;
-  display: inline-block;
   text-align: center;
 }
 @media (max-width: 767px) {
