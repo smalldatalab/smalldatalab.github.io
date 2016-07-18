@@ -1577,7 +1577,13 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   position: absolute;
   right: 0;
   height: 100%;
+
+  /*
   width: 1000px;
+  */
+  left: -52px;
+  width: 112%; 
+  
   background: #f3f3f3;
   margin: 0;
   -webkit-background-size: cover;
@@ -1594,6 +1600,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 .content-35 .background .col-sm-4 > div img {
   height: 100% !important;
+  /* width: auto; */
   width: auto;
   position: absolute;
   top: 0;
