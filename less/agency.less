@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
 
     .navbar-brand {
+        float: right;
         color: @theme-primary;
 
         font-family: 'Open Sans', sans-serif;
@@ -126,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .navbar-nav>.active>a {
         border-radius: 0;
-        color: white;
+        color: black;
         background-color: @theme-primary;
     }
     .navbar-nav>.active>a:hover,
@@ -292,8 +293,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -381,7 +382,7 @@ section {
             position: absolute;
             z-index: 100;
             background-color: @theme-primary;
-            color: white;
+            color: black;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
             text-align: center;
@@ -544,7 +545,7 @@ section#contact {
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {
-        color: white;
+        color: black;
     }
     .form-group {
         margin-bottom: 25px;
@@ -578,7 +579,7 @@ section#contact {
        font-weight: 700;
        color: @gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        .heading-font;
        font-weight: 700;
        color: @gray-lighter;
@@ -717,6 +718,12 @@ ul.social-buttons {
     }
 }
 
+.fa-inverse{
+    color: black;
+}
+.fa-circle{
+    color: rgb(31,133,187);
+}
 // Highlight Color Customization
 
 ::-moz-selection {
