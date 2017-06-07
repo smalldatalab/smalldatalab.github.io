@@ -83,9 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-custom {
     background-color: @gray-darker;
     border-color: transparent;
+
     .navbar-brand {
         color: @theme-primary;
-        .script-font;
+
+        font-family: 'Open Sans', sans-serif;
         &:hover,
         &:focus,
         &:active,
@@ -167,16 +169,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/newyork.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
-    background-position: center center;
+    background-position: top center;
     .background-cover;
     text-align: center;
     color: white;
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+
         .intro-lead-in {
             .serif-font;
             font-style: italic;
@@ -198,7 +201,7 @@ header {
     header {
         .intro-text {
             padding-top: 300px;
-            padding-bottom: 200px;
+            padding-bottom: 500px;
             .intro-lead-in {
                 .serif-font;
                 font-style: italic;
@@ -208,6 +211,7 @@ header {
             }
             .intro-heading {
                 .heading-font;
+                text-transform: none;
                 font-weight: 700;
                 font-size: 75px;
                 line-height: 75px;
@@ -428,13 +432,13 @@ section {
 @media(min-width:768px) {
     .timeline {
         &:before {
-            left: 50%;
+            left: 0%;
         }
         > li {
             margin-bottom: 100px;
             min-height: 100px;
             .timeline-panel {
-                width: 41%;
+                width: 90%;
                 float: left;
                 padding: 0 20px 20px 30px;
                 text-align: right;
@@ -442,7 +446,7 @@ section {
             .timeline-image {
                 width: 100px;
                 height: 100px;
-                left: 50%;
+                left: 0%;
                 margin-left: -50px;
                 h4 {
                     font-size: 13px;
