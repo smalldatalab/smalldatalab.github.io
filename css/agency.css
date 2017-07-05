@@ -347,6 +347,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
+  height: 250px;
   background-color: white;
   text-align: center;
   padding: 25px;
@@ -357,7 +358,6 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
   font-size: 16px;
   margin: 0;
 }
@@ -536,8 +536,16 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
-.team-member {
+.team-hover {
+  background: rgba(255, 255, 255, 0.9);
   text-align: center;
+  opacity: 1;
+}
+.team-hover:hover {
+  opacity: 0.2;
+}
+.team-member {
+  height: 300px;
   margin-bottom: 50px;
 }
 .team-member img {
@@ -548,16 +556,16 @@ section h3.section-subheading {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
+  text-align: center;
 }
 .team-member p {
+  text-align: center;
   margin-top: 0;
 }
 aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../img/map-image.png');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -670,12 +678,18 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
+.portfolio-modal .modal-content a {
+  color: blue;
+  text-align: center;
+  padding-bottom: 30px;
+}
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
+  text-align: left;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
@@ -689,6 +703,7 @@ ul.social-buttons li a:active {
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+  height: 300px;
 }
 .portfolio-modal .close-modal {
   position: absolute;

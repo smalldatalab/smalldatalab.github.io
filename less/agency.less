@@ -299,6 +299,7 @@ section {
         .portfolio-caption {
             max-width: 400px;
             margin: 0 auto;
+            height: 250px;
             background-color: white;
             text-align: center;
             padding: 25px;
@@ -308,7 +309,7 @@ section {
             }
             p {
                 .serif-font;
-                font-style: italic;
+                //font-style: ;
                 font-size: 16px;
                 margin: 0;
             }
@@ -512,9 +513,20 @@ section {
 
 // Team Section
 
-.team-member {
+.team-hover{
+    background: fade(@theme-primary, 90%);
     text-align: center;
+    opacity: 1;
+    &:hover{
+        opacity: 0.2;
+    }
+}
+
+.team-member {
+    height: 300px;
+
     margin-bottom: 50px;
+
     img {
         margin: 0 auto;
         border: 7px solid white;
@@ -523,10 +535,13 @@ section {
         margin-top: 25px;
         margin-bottom: 0;
         text-transform: none;
+        text-align: center;
     }
     p {
+        text-align: center;
         margin-top: 0;
     }
+
 }
 
 // Clients Aside
@@ -540,8 +555,8 @@ aside.clients {
 // Contact Section
 
 section#contact {
-    background-color: @gray-darker;
-    background-image: url('../img/map-image.png');
+    //background-color: @gray-darker;
+    //background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
     .section-heading {
@@ -656,12 +671,19 @@ ul.social-buttons {
         min-height: 100%;
         padding: 100px 0;
         text-align: center;
+        a{
+            color: blue;
+            text-align: center;
+            padding-bottom: 30px;
+
+        }
         h2 {
             margin-bottom: 15px;
             font-size: 3em;
         }
         p {
             margin-bottom: 30px;
+            text-align: left;
         }
         p.item-intro {
             margin: 20px 0 30px;
@@ -675,6 +697,7 @@ ul.social-buttons {
         }
         img {
             margin-bottom: 30px;
+            height: 300px;
         }
     }
     .close-modal {
