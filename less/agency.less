@@ -452,6 +452,14 @@ section {
 }
 
 @media(min-width:768px) {
+
+    .navbar-custom {
+
+        .navbar-brand {
+            font-size: 1.3em;
+        }
+    }
+
     .timeline {
         &:before {
             left: 0%;
@@ -486,6 +494,12 @@ section {
 }
 
 @media(min-width:992px) {
+    .navbar-custom {
+
+        .navbar-brand {
+            font-size: 2em;
+        }
+    }
     .timeline {
         > li {
             min-height: 150px;
@@ -530,6 +544,54 @@ section {
         }
     }
 }
+
+
+@media(max-width:767px) {
+
+    #portfolio .portfolio-item .portfolio-caption{
+        max-height: 250px;
+    }
+
+    header .intro-text  .intro-heading{
+            //.heading-font;
+            font-weight: 300;
+            font-size: 35px;
+            line-height: 50px;
+            margin-bottom: 25px;
+    }
+    .fa-4x {
+        font-size: 3em;
+    }
+
+    .navbar-custom {
+
+        .navbar-brand {
+            color:white;
+            margin-right: 35px;
+        }
+        .navbar-toggle {
+            color:black;
+            text-align: left;
+        }
+        .nav>li>a{
+            color:white;
+        }
+
+        .navbar-image {
+            width: 30px;
+            margin-left: 15px;
+            //margin-bottom: -30px;
+            margin-right: -30px;
+        }
+        //.navbar-nav>.active>a {
+        //    border-radius: 0;
+        //    color: black;
+        //    background-color: @theme-primary;
+        //}
+    }
+
+}
+
 
 // Team Section
 
@@ -790,3 +852,4 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: @theme-primary;
 }
+
