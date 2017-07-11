@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-custom .navbar-brand {
   float: right;
-  color: #ffffff;
+  color: black;
   font-family: 'Open Sans', sans-serif;
 }
 .navbar-custom .navbar-brand:hover,
@@ -160,6 +160,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: #e6e6e6;
+}
+.navbar-custom .navbar-image {
+  width: 40px;
+  margin-left: -15px;
+  margin-bottom: -30px;
+  margin-right: 30px;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
@@ -181,7 +187,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: black;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
@@ -223,20 +229,33 @@ fieldset[disabled] .btn-xl.active {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
+    color: white;
     font-size: 1.5em;
+  }
+  .navbar-custom.affix .navbar-image {
+    width: 30px;
+    margin-left: -15px;
+    margin-bottom: -30px;
+    margin-right: 30px;
+  }
+  .navbar-custom.affix .navbar-nav > .active > a {
+    color: black;
+  }
+  .navbar-custom.affix .nav li a {
+    color: white;
   }
 }
 header {
-  background-image: url('../img/newyork.jpg');
+  background-image: url('../img/RI2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: top center;
+  background-position: 0% 30%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+  color: black;
 }
 header .intro-text {
   padding-top: 100px;
@@ -259,8 +278,8 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 500px;
+    padding-top: 200px;
+    padding-bottom: 300px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -756,7 +775,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #ffffff;
+  background: yellow;
 }
 img::selection {
   background: transparent;
