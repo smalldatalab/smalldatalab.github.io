@@ -561,15 +561,25 @@ section h3.section-subheading {
     padding: 0 100px 20px 20px;
   }
 }
+.textshow2 {
+  display: none;
+}
 @media (max-width: 767px) {
+  .textshow {
+    display: block;
+  }
+  .textshow2 {
+    display: block;
+  }
   #portfolio .portfolio-item .portfolio-caption {
-    max-height: 250px;
+    max-height: 300px;
   }
   header .intro-text .intro-heading {
-    font-weight: 300;
-    font-size: 35px;
-    line-height: 50px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
   }
   .fa-4x {
     font-size: 3em;
