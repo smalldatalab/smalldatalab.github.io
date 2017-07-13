@@ -565,6 +565,9 @@ section h3.section-subheading {
   display: none;
 }
 @media (max-width: 767px) {
+  header {
+    background-position: 70% 30%;
+  }
   .textshow {
     display: block;
   }
@@ -572,14 +575,17 @@ section h3.section-subheading {
     display: block;
   }
   #portfolio .portfolio-item .portfolio-caption {
-    max-height: 300px;
+    max-height: 330px;
   }
   header .intro-text .intro-heading {
     margin-top: 40px;
-    margin-bottom: 200px;
+    margin-bottom: 40px;
     font-weight: 600;
     font-size: 30px;
     line-height: 30px;
+  }
+  header .intro-text > a {
+    margin-bottom: 100px;
   }
   .fa-4x {
     font-size: 3em;
