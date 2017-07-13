@@ -579,13 +579,14 @@ section h3.section-subheading {
   }
   header .intro-text .intro-heading {
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 70%;
     font-weight: 600;
     font-size: 30px;
     line-height: 30px;
   }
   header .intro-text > a {
-    margin-bottom: 60px;
+    position: relative;
+    bottom: 20px;
   }
   .fa-4x {
     font-size: 3em;
