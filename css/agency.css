@@ -566,7 +566,7 @@ section h3.section-subheading {
 }
 @media (max-width: 767px) {
   header {
-    background-position: 70% 30%;
+    background-position: 70% 60%;
   }
   .textshow {
     display: block;
@@ -578,15 +578,15 @@ section h3.section-subheading {
     max-height: 330px;
   }
   header .intro-text .intro-heading {
-    margin-top: 40px;
-    margin-bottom: 70%;
+    margin-top: 0px;
+    margin-bottom: 200px;
     font-weight: 600;
     font-size: 30px;
     line-height: 30px;
   }
   header .intro-text > a {
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
   }
   .fa-4x {
     font-size: 3em;
