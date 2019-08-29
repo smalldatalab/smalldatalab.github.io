@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2017 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -271,9 +271,10 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 70;
-  font-size: 30px;
+  font-weight: 700;
+  font-size: 50px;
   line-height: 50px;
+  margin-bottom: 25px;
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -286,14 +287,13 @@ header .intro-text .intro-heading {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
-    color:white;
   }
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     text-transform: none;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 50px;
     line-height: 75px;
     margin-bottom: 50px;
   }
@@ -330,13 +330,15 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  max-width: 400px;
+  max-width: 320px;
+  background-color: white;
+  padding: 25px;
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(255, 255, 255, 0.9);
   position: absolute;
-  width: 100%;
+  width: 243px;
   height: 100%;
   opacity: 0;
   transition: all ease 0.5s;
@@ -351,6 +353,7 @@ section h3.section-subheading {
   width: 100%;
   height: 20px;
   font-size: 20px;
+  padding: 25px;
   text-align: center;
   top: 50%;
   margin-top: -12px;
@@ -364,9 +367,9 @@ section h3.section-subheading {
   margin: 0;
 }
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 320px;
   margin: 0 auto;
-  height: 250px;
+  height: 200px;
   background-color: white;
   text-align: center;
   padding: 25px;
@@ -377,7 +380,7 @@ section h3.section-subheading {
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin: 0;
 }
 #portfolio * {
